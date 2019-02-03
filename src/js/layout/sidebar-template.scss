@@ -1,0 +1,21 @@
+.sidebar-template{
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar-template{
+    display: flex;
+
+    .sidebar {
+      flex: 2;
+
+      .inner-sidebar {
+        max-width: 250px;
+      }
+    }
+
+    .main-content {
+      flex: 4;
+    }
+  }
+}
