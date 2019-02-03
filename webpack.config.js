@@ -75,7 +75,7 @@ module.exports = {
       {
         // Load a custom template (lodash by default)
         template: './src/index.html',
-        filename: './index.html' //relative to root of the application
+        filename: '../index.html' //relative to root of the application
       }
     )
   ],
