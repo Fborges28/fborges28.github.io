@@ -34,11 +34,13 @@ const postCSSLoader = {
 }
 
 const fileLoader = {
-  test: /\.(png|jpg|gif)$/,
+  test: /\.(jpg|png|gif|svg|pdf|ico)$/,
   use: [
     {
       loader: 'file-loader',
-      options: {},
+      options: {
+        name: '[path][name]-[hash:8].[ext]'
+      },
     },
   ]
 }
@@ -49,7 +51,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'js/bundle.js',
-    publicPath: '/'
+    publicPath: "/dist/"
   },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
