@@ -33,6 +33,7 @@
 
   .main-nav {
     margin-top: 25px;
+    text-align: center;
 
     ul {
       list-style: none;
@@ -92,6 +93,10 @@
     .sidebar-content {
       margin-top: 95px;
       max-width: 250px;
+    }
+
+    .main-nav {
+      text-align: left;
     }
 
     &.collapsed-header {
