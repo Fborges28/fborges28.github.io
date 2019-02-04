@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 import "../sass/main.scss";
 import "../sass/theme-colors.scss";
@@ -25,11 +25,11 @@ class App extends React.Component {
 }
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Switch>
-        <Route path="/" exact={true} component={App} />
-        <Route path="/sobre-mim" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
-    </Switch>
-  </ BrowserRouter>, 
+  <HashRouter>
+    <div>
+      <Route exact path="/" component={App} />
+      <Route path="/sobre-mim" component={About} />
+      <Route path="/portfolio" component={Portfolio} />
+    </div>
+  </ HashRouter>, 
   documentRoot);
