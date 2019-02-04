@@ -1,0 +1,58 @@
+.sidebar {
+  background-color: #0f0f0f;
+  color: #ccc;
+  
+  .profile-photo {
+    border: 4px solid #aaa;
+    background-color: #fff;
+  }
+  
+  .main-nav {
+    ul {
+      li {
+        border-bottom: 1px solid #505050;
+
+        a {
+          color: #ccc;
+        }
+      }
+    }
+  }
+}
+
+.main-content {
+  background-color: #dddbdb;
+}
+
+#toggle-header {
+  background: #242424;
+  color: #fff;
+}
+
+.btn-primary,
+.btn-simple,
+.wp-block-button__link,
+.technologies-work button {
+  background-color: transparent;
+  border: 1px solid #0f0f0f;
+  color: #0f0f0f;
+}
+
+a {
+  color: #0f0f0f;
+}
+
+.job-resume {
+  background-color: #f1f1f1;
+  box-shadow: 0 5px 5px 0 rgba(18,63,82,.035),0 0 0 1px rgba(176,181,193,.2);
+  overflow: hidden;
+  padding: 60px 35px;
+  margin-bottom: 1.5em;
+  margin-top: 30px;
+  border-radius: 3px;
+
+  a {
+    background-color: #313131;
+    color: #fff;
+  }
+}

@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+import profilePhoto from "../../../assets/img/profile.jpg";
 import "./sidebar.scss";
 
 class Sidebar extends React.Component {
@@ -6,7 +8,7 @@ class Sidebar extends React.Component {
     super(props);
 
     this.state = {
-      showMenu: true,
+      showMenu: false,
       menu: [
         {
           "title": "Home",
@@ -19,10 +21,6 @@ class Sidebar extends React.Component {
         {
           "title": "Portfólio",
           "url": "/portfolio"
-        },
-        {
-          "title": "Contato",
-          "url": "/contato"
         }
       ]
     }
@@ -38,10 +36,20 @@ class Sidebar extends React.Component {
     return (
       <div className={`sidebar ${this.state.showMenu ? "": "collapsed-header"}`}>
         <div className="sidebar-content">
+          <div className="sidebar-profile">
+            <div className="profile-photo">
+              <img src={profilePhoto} alt="Felipe Borges - Foto de Perfil"/>
+            </div>
+            <div className="text-center sidebar-small-description">
+              <small>Felipe Borges</small>
+              <br/>
+              <small>Desenvolvedor web</small>
+            </div>
+          </div>
           <nav className="main-nav">
             <ul>
               {
-                this.state.menu.map((item, index) => <li key={"menu-"+index}><a href={item.url}>{item.title}</a></li>)
+                this.state.menu.map((item, index) => <li key={"menu-"+index}><Link to={item.url}>{item.title}</Link></li>)
               }
             </ul>
           </nav>

@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "../../components/footer";
+import "./main-content.scss";
 
 class MainContent extends React.Component {
   constructor(props){
@@ -8,7 +10,10 @@ class MainContent extends React.Component {
   render(){
     return (
       <div className="main-content">
-        <h3>Main Content</h3>
+        <div className="inner">
+          {this.props.content}
+        </div>
+        <Footer/>
       </div>
     )
   }

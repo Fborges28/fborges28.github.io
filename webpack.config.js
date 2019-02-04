@@ -32,18 +32,30 @@ const postCSSLoader = {
     ]
   }
 }
+
+const fileLoader = {
+  test: /\.(png|jpg|gif)$/,
+  use: [
+    {
+      loader: 'file-loader',
+      options: {},
+    },
+  ]
+}
  
 module.exports = {
   // ...
   entry: path.resolve(__dirname, './src/js/app.js'),
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'js/bundle.js'
+    filename: 'js/bundle.js',
+    publicPath: '/'
   },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 9000
+    port: 9000,
+    historyApiFallback: true
   },
   module: {
     rules: [
@@ -67,7 +79,8 @@ module.exports = {
           postCSSLoader,
           'sass-loader',
         ]
-      }
+      },
+      fileLoader
     ]
   },
   plugins: [

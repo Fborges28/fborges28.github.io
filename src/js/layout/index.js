@@ -12,7 +12,7 @@ class SidebarTemplate extends React.Component {
     return (
       <div className='sidebar-template'>
         <Sidebar/>
-        <MainContent/>
+        <MainContent content={this.props.content}/>
       </div>
     )
   }

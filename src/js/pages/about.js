@@ -1,0 +1,45 @@
+import React from "react";
+//PAGES IMPORTS
+import SidebarTemplate from "../layout/index";
+
+class Home extends React.Component {
+  constructor(props){
+    super(props);
+  }
+
+  componentDidMount(){
+    console.log("Home");
+  }
+  
+  render() {
+    let aboutContent = (
+      <div>
+        <h2>Descrição profissional</h2>
+        <p>Meu nome é Felipe Borges, sou formado no curso de <strong>Jogos Digitais</strong>, pela PUCSP, e no curso técnico em <strong>Design Gráfico</strong>,  pelo Centro Paula Souza. No início da minha carreira, trabalhei por  algum tempo como Web Designer, com tratamento de imagens, criação de  layouts para e-mail marketing e, com o passar do tempo, foquei  especificamente no desenvolvimento (programação).</p>
+        <p>Atualmente, sou desenvolvedor web com foco no desenvolvimento Front-End. O desenvolvimento front-end me agrada porque me preocupo bastante com o design e em como boas experiências de uso, proporcionadas pelo design, podem ajudar as pessoas em suas tarefas diárias. </p>
+        <p>No meu tempo livre costumo estudar filosofia, design e, por incrível que pareça, programação, especificamente para desenvolver alguns jogos.</p>
+        <h2>Tecnologias</h2>
+        <div class="technologies-work">
+          <button class="btn btn-primary">HTML</button>
+          <button class="btn btn-primary">CSS</button>
+          <button class="btn btn-primary">Bootstrap css</button>
+          <button class="btn btn-primary">SASS</button>
+          <button class="btn btn-primary">Javascript (Vanilla JS)</button>
+          <button class="btn btn-primary">jQuery</button>
+          <button class="btn btn-primary">JSON</button>
+          <button class="btn btn-primary">React</button>
+          <button class="btn btn-primary">Php</button>
+          <button class="btn btn-primary">Gulp</button>
+          <button class="btn btn-primary">Webpack</button>
+          <button class="btn btn-primary">npm</button>
+        </div>
+      </div>
+    )
+
+    return (
+      <SidebarTemplate content={aboutContent}/>
+    )
+  }
+}
+
+export default Home;
