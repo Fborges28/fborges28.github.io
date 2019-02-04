@@ -1,5 +1,6 @@
 import React from "react";
 //PAGES IMPORTS
+import { Link } from 'react-router-dom';
 import SidebarTemplate from "../layout/index";
 
 class Home extends React.Component {
@@ -19,7 +20,7 @@ class Home extends React.Component {
         <p>Nos últimos anos trabalhei principalmente com desenvolvimento web voltado para a área de educação, desde o desenvolvimento de jogos educacionais até o desenvolvimento de plataformas de ensino à distância.Esta é uma pequena introdução da minha experiência profissional, clique no botão à seguir para saber mais sobre a minha trajetória.</p>
         <p>Esta é uma pequena introdução da minha experiência profissional, clique no botão à seguir para saber mais sobre a minha trajetória.</p>
         <div className="wp-block-button">
-          <a className="btn-simple" href="http://projects:8888/portfolio/sobre-mim/">Ver mais</a>
+          <Link className="btn-simple" to="/sobre-mim">Ver mais</Link>
         </div>
       </div>
     )
