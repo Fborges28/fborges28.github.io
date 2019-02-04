@@ -5,6 +5,7 @@ let path = require('path');
 
 exports.htmlPlugin = () => new HtmlWebpackPlugin({
   // Load a custom template (lodash by default)
+  title: "Felipe Borges - Desenvolvedor Web",
   template: 'src/index.html',
   filename: '../index.html' //relative to root of the application
 })
