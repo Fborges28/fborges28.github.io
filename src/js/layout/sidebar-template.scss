@@ -1,0 +1,42 @@
+.sidebar-template{
+  min-height: 100vh;
+
+  .inner {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+
+  .inner-simple {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+footer.content-info {
+  margin-top: 80px;
+  padding: 0 0 80px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar-template{
+    display: flex;
+
+    .inner {
+      padding-top: 90px;
+    }
+
+    .sidebar {
+      flex: 2;
+
+      .inner-sidebar {
+        max-width: 250px;
+      }
+    }
+
+    .main-content {
+      flex: 4;
+    }
+  }
+}
