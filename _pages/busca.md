@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Busca
-permalink: /search/
+permalink: /busca/
 ---
 
 <div id="search-container">
