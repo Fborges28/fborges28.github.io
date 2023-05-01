@@ -5,7 +5,7 @@ permalink: /busca/
 ---
 
 <div id="search-container">
-    <input type="text" id="search-input" placeholder="Search through the blog posts...">
+    <input type="text" id="search-input" placeholder="Buscar por palavras-chave nas publicações...">
     <ul id="results-container"></ul>
 </div>
 

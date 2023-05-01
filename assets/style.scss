@@ -287,6 +287,8 @@ p > img {
   height: 70px;
   margin-right: 15px;
   display: block;
+  font-size: 2.5rem;
+  color: #1e1e1e;
 
   @include mobile {
     width: 100%;
