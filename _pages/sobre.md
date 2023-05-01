@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Sobre
 permalink: /about/
 ---
 
@@ -17,7 +17,7 @@ This is a plug-and-play Jekyll theme which you can use on GitHub Pages without e
 - All the SEO goodies comes in-built
 - Markdown blogging
 - Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
+  - [Dracula syntax theme](https://draculatheme.com/) included
 - Disqus commenting
 - Google Analytics integration
 - Fuzzy search across blog posts
