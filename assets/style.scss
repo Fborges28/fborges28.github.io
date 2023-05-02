@@ -34,6 +34,8 @@ body {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
+  position: relative;
+  left: -125px;
   width: 100%;
 }
 
@@ -333,31 +335,33 @@ p > img {
   }
 }
 
-nav {
-  margin-top: 60px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
-  display: flex;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-right: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
+.masthead {
+  nav {
+      margin-top: 60px; // @TODO: Vertically middle align
+      font-family: $helveticaNeue;
+      font-size: 18px;
+      display: flex;
+  
+      @include mobile {
+        float: none;
+        margin-top: 9px;
+        display: block;
+        font-size: 16px;
+      }
+  
+      a {
+        margin-right: 20px;
+        color: $darkGray;
+        text-align: right;
+        font-weight: 300;
+        letter-spacing: 1px;
+  
+        @include mobile {
+          margin: 0 10px;
+          color: $blue;
+        }
+      }
     }
-  }
 }
 
 //
@@ -374,7 +378,13 @@ nav {
   border-bottom: none;
 }
 
+.post-content {
+  display: flex;
+}
+
 .post {
+  flex: 0 0 100%;
+
   blockquote {
     margin: 1.8em .8em;
     /*border-left: 2px solid $gray;*/
@@ -402,6 +412,36 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+  }
+}
+
+.post-side {
+  flex: 0 0 250px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  margin-top: 10px;
+  align-self: flex-start;
+
+  .post-side-navigation {
+    margin: 0px 0px 0px 25px;
+    
+    .post-side-title {
+      text-align: left;
+    }
+
+    ul {
+      margin: 0px;
+      padding: 0px 0px 0px 25px;
+      list-style: none;
+      border-left: 5px solid $lightGray;
+
+      li {
+        a {
+
+        }
+      }
+    }
   }
 }
 
