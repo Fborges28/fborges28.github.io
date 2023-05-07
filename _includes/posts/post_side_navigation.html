@@ -1,0 +1,22 @@
+<aside class="post-side">
+  <nav class="post-side-navigation">
+    <button id="show-anchors" class="post-side-button-title">
+      <span>&#8594;</span>Neste artigo
+    </button>
+    <h3 class="post-side-title">Neste artigo</h3>
+    <ul>
+      {% if post %} {% assign sections = post.sections %} {% else %} {% assign
+      sections = page.sections %} {% endif %} {% for section in sections %}
+      <li><a href="{{section.anchor}}">{{section.title}}</a></li>
+      {% if section.subtitles %}
+      <ul>
+        {% for subtitle in section.subtitles %}
+        <li>
+          <a href="{{subtitle.anchor}}">{{subtitle.title}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}{% endfor %}
+    </ul>
+  </nav>
+</aside>

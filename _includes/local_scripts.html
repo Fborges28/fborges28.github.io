@@ -1,0 +1,12 @@
+<script>
+  let navAnchorButton = document.querySelector("#show-anchors");
+  let postSideNavigation = document.querySelector(".post-side-navigation");
+
+  if (navAnchorButton && postSideNavigation) {
+    navAnchorButton.addEventListener("click", toggleSideNavigation);
+  }
+
+  function toggleSideNavigation() {
+    postSideNavigation.classList.toggle("active");
+  }
+</script>
