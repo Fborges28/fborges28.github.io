@@ -33,15 +33,19 @@ sections:
 
 ## [Introdução](#intro)
 
-Existem grandes referências na internet sobre o que é o Document Object Model, por exemplo esta da [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model) , então este artigo procura demonstrar algumas curiosidades e, talvez, tentar simplificar a vastidão de informações sobre este tópico tão relevante e, ainda, tão incompreendido.
+Existem grandes referências na internet sobre o que é o DOM \(Document Object Model\), por exemplo esta da [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model).
+
+Então, este artigo procura demonstrar algumas curiosidades e tenta simplificar a vastidão de informações sobre este tópico, que é tão relevante e, ainda, tão incompreendido.
 
 #### [Conceitos](#conceitos)
 
-Existem grandes referências na internet sobre o que é o Document Object Model, por exemplo esta da [Mozilla](http://pygments.org/) , então este artigo procura demonstrar algumas curiosidades e, talvez, tentar simplificar a vastidão de informações sobre este tópico tão relevante e, ainda, tão incompreendido.
+Existem grandes referências na internet sobre o que é o DOM \(Document Object Model\), por exemplo esta da [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model).
+
+Então, este artigo procura demonstrar algumas curiosidades e tenta simplificar a vastidão de informações sobre este tópico, que é tão relevante e, ainda, tão incompreendido.
 
 #### Motivação
 
-Existem grandes referências na internet sobre o que é o Document Object Model, por exemplo esta da [Mozilla](http://pygments.org/) , então este artigo procura demonstrar algumas curiosidades e, talvez, tentar simplificar a vastidão de informações sobre este tópico tão relevante e, ainda, tão incompreendido.
+Existem grandes referências na internet sobre o que é o DOM \(Document Object Model\), por exemplo esta da [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model).
 
 ![Dom Tree]({{ site.baseurl }}/images/htmltree.gif)
 
@@ -49,11 +53,11 @@ Existem grandes referências na internet sobre o que é o Document Object Model,
 
 ## [Exemplos](#exemplos)
 
-Existem grandes referências na internet sobre o que é o Document Object Model, por exemplo esta da [Mozilla](http://pygments.org/) , então este artigo procura demonstrar algumas curiosidades e, talvez, tentar simplificar a vastidão de informações sobre este tópico tão relevante e, ainda, tão incompreendido.
+Existem grandes referências na internet sobre o que é o DOM \(Document Object Model\), por exemplo esta da [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model).
 
 #### [Vanilla](#vanilla)
 
-Existem grandes referências na internet sobre o que é o Document Object Model, por exemplo esta da [Mozilla](http://pygments.org/) , então este artigo procura demonstrar algumas curiosidades e, talvez, tentar simplificar a vastidão de informações sobre este tópico tão relevante e, ainda, tão incompreendido.
+Existem grandes referências na internet sobre o que é o DOM \(Document Object Model\), por exemplo esta da [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model).
 
 ```js
 const a = 10; // Exemplo
@@ -68,7 +72,7 @@ hello();
 
 #### [Web Components](#web-components)
 
-Existem grandes referências na internet sobre o que é o Document Object Model, por exemplo esta da [Mozilla](http://pygments.org/) , então este artigo procura demonstrar algumas curiosidades e, talvez, tentar simplificar a vastidão de informações sobre este tópico tão relevante e, ainda, tão incompreendido.
+Existem grandes referências na internet sobre o que é o DOM \(Document Object Model\), por exemplo esta da [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model).
 
 ```js
 const a = 10; // Exemplo
@@ -83,7 +87,7 @@ hello();
 
 #### [React](#react)
 
-Existem grandes referências na internet sobre o que é o Document Object Model, por exemplo esta da [Mozilla](http://pygments.org/) , então este artigo procura demonstrar algumas curiosidades e, talvez, tentar simplificar a vastidão de informações sobre este tópico tão relevante e, ainda, tão incompreendido.
+Existem grandes referências na internet sobre o que é o DOM \(Document Object Model\), por exemplo esta da [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model).
 
 ```js
 const a = 10; // Exemplo
@@ -98,7 +102,7 @@ hello();
 
 #### [Angular](#angular)
 
-Existem grandes referências na internet sobre o que é o Document Object Model, por exemplo esta da [Mozilla](http://pygments.org/) , então este artigo procura demonstrar algumas curiosidades e, talvez, tentar simplificar a vastidão de informações sobre este tópico tão relevante e, ainda, tão incompreendido.
+Existem grandes referências na internet sobre o que é o DOM \(Document Object Model\), por exemplo esta da [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model).
 
 ```js
 const a = 10; // Exemplo
@@ -113,7 +117,7 @@ hello();
 
 #### [Vue](#vue)
 
-Existem grandes referências na internet sobre o que é o Document Object Model, por exemplo esta da [Mozilla](http://pygments.org/) , então este artigo procura demonstrar algumas curiosidades e, talvez, tentar simplificar a vastidão de informações sobre este tópico tão relevante e, ainda, tão incompreendido.
+Existem grandes referências na internet sobre o que é o DOM \(Document Object Model\), por exemplo esta da [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model).
 
 ```js
 const a = 10; // Exemplo
@@ -128,7 +132,7 @@ hello();
 
 ## [Próximos passos](#próximos-passos)
 
-Existem grandes referências na internet sobre o que é o Document Object Model, por exemplo esta da [Mozilla](http://pygments.org/) , então este artigo procura demonstrar algumas curiosidades e, talvez, tentar simplificar a vastidão de informações sobre este tópico tão relevante e, ainda, tão incompreendido.
+Existem grandes referências na internet sobre o que é o DOM \(Document Object Model\), por exemplo esta da [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model).
 
 ## [Glossário](#glossário)
 
