@@ -20,8 +20,8 @@ sections:
       anchor: "#exemplos",
       subtitles: [{ title: "Vanilla", anchor: "#vanilla" }],
     },
-    { title: "Próximos passos", anchor: "#próximos-passos" },
     { title: "Glossário", anchor: "#glossário" },
+    { title: "Próximos passos", anchor: "#próximos-passos" },
   ]
 ---
 
@@ -235,16 +235,6 @@ Mozilla - Para uma consulta completa sobre os métodos e eventos da API, [acessa
 
 W3C DOM - [link](https://www.w3schools.com/js/js_htmldom.asp)
 
-## [Próximos passos](#próximos-passos)
-
-Este artigo faz parte de uma série de artigos que virão nas próximas semanas explicando um pouco mais a fundo sobre como funcionam as tecnologias web por "trás das cortinas". Deixo aqui uma sugestão de leitura:
-
-**Shadow Dom** - [link](https://www.treinaweb.com.br/blog/o-que-e-dom-virtual-dom-e-shadow-dom). Este conteúdo fará parte desta série de artigos nas próximas semanas.
-
-### O que vem na sequência
-
-O próximo artigo será **"Virtual DOM: Como o React realmente funciona?"**
-
 ## [Glossário](#glossário)
 
 **1. DOM** - Document Object Model é uma API (Interface de Programação de Aplicações) que auxilia pessoas que estejam programando páginas WEB para criar documentos, navegar dentro da estrutura desses documentos via código, adicionar, modificar ou deletar elementos e seus conteúdos.
@@ -256,3 +246,13 @@ O próximo artigo será **"Virtual DOM: Como o React realmente funciona?"**
 **4. Protótipos Javascript** - Dentro da árvore dos objetos javascript, cada um desses foi construído a partir de outro objeto, o seu protótipo. Diferente da herança baseada em classes, onde cada objeto somente conhece as propriedades da instância da classe, em objetos javascript temos uma cadeia de objetos vinculados uns aos outros através da propriedade **\[\_\_proto\_\_\]**.
 
 **5. Dot Notation** - O tipo de acesso as propriedades dos objetos javascript. Exemplo: objeto.propriedade ou objeto.metodo().
+
+## [Próximos passos](#próximos-passos)
+
+Este artigo faz parte de uma série de artigos que virão nas próximas semanas explicando um pouco mais a fundo sobre como funcionam as tecnologias web por "trás das cortinas". Deixo aqui uma sugestão de leitura:
+
+**Shadow Dom** - [link](https://www.treinaweb.com.br/blog/o-que-e-dom-virtual-dom-e-shadow-dom). Este conteúdo fará parte desta série de artigos nas próximas semanas.
+
+### O que vem na sequência
+
+O próximo artigo será **"Virtual DOM: Como o React realmente funciona?"**
