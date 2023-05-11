@@ -1,6 +1,7 @@
 ---
 layout: post
 title: DOM - Como funciona?
+image: /images/logo.png
 categories: [HTML, Javascript, Navegadores]
 excerpt: Este artigo procura demonstrar algumas curiosidades e, talvez, tentar simplificar a vastidão de informações sobre este tópico tão relevante e, ainda, tão incompreendido.
 sections:
